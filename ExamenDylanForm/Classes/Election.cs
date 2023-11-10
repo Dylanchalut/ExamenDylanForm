@@ -45,7 +45,7 @@ namespace ExamenDylanForm.Classes
             //p_elect.(listElecteurs);
         }
 
-        public static L rechercher_electeurs_ciconscription(string ciconscription)
+        public static string rechercher_electeurs_ciconscription(string ciconscription)
         {
             int count = 0;
             foreach (Electeur e in listElecteurs)

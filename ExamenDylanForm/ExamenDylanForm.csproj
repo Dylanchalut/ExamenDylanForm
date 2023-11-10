@@ -46,12 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormParent.cs">
     <Compile Include="Classes\Electeur.cs" />
     <Compile Include="Classes\Election.cs" />
     <Compile Include="Classes\Individu.cs" />
     <Compile Include="Formulaires\FormParent.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormParent.Designer.cs">
     <Compile Include="Formulaires\FormParent.Designer.cs">
       <DependentUpon>FormParent.cs</DependentUpon>
     </Compile>
